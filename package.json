@@ -1,0 +1,26 @@
+{
+  "name": "Webpack-project",
+  "version": "1.0.0",
+  "description": "Simple project with webpack/bootstrap/sticky footer",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "build: prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underpr00f/Simple-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/underpr00f/Simple-project/issues"
+  },
+  "homepage": "https://github.com/underpr00f/Simple-project#readme",
+  "devDependencies": {
+    "webpack": "^4.38.0",
+    "webpack-dev-server": "^3.7.2"
+  }
+}

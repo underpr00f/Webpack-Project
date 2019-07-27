@@ -1,0 +1,87 @@
+$font-weight: 400;
+$font-size: 16px;
+$line-height: 1.4;
+$font-family: Arial; 
+$color: #000;
+$wrapper: 1200px;
+
+html {
+	height: 100%;
+}
+body {	
+	color: $color;
+	font-weight: $font-weight; 
+	font-size: $font-size;
+	line-height: $line-height; 
+	font-family: $font-family, Arial, sans-serif;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+h1 {
+	font-family: 'Arsenal', sans-serif;
+}
+/* MAIN STYLES
+/* ================================================ */
+.main {
+	flex: 1 0 auto;
+}
+.header {
+	margin-top: 2em;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+
+	&-image {
+		align-self: center;
+	}
+	&-title {
+		text-align: center;
+	}
+}
+
+footer {
+	margin-top: auto;
+	padding: 2rem;
+	flex-shrink: 0;
+	text-align: center;
+}
+
+.footer-text {
+	color: #a5a5a5;
+	font-family: "PT Sans", sans-serif;
+	font-size: $font-size;
+	font-weight: 700;
+	text-decoration: underline;
+	letter-spacing: 0.8px;	
+}
+
+@media (max-height: 700px) {
+	.header {
+		margin-top: 1.5rem;
+	}
+	.content {
+		&-image {
+			margin-top: -2.5rem;
+		}
+		&-title {
+			margin-top: -3rem;
+			font-size: 26px;
+		}	
+	}	
+
+}
