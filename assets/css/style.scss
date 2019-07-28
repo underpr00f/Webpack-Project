@@ -1,3 +1,5 @@
+@import "colors";
+
 $font-weight: 400;
 $font-size: 16px;
 $line-height: 1.4;
@@ -14,7 +16,7 @@ body {
 	font-size: $font-size;
 	line-height: $line-height; 
 	font-family: $font-family, Arial, sans-serif;
-	background: #fff;
+	background: $main;
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;

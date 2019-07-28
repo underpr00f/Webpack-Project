@@ -1,9 +1,5 @@
 # Simple-project
-Simple project with gulp/bootstrap/sticky footer
-
-
-For gulp use packageGULP.json -> package.json, remove webpack.config.js remove
-npm init -y
+Simple project with webpack/bootstrap/sticky footer
 
 
 For use Webpack gulpfile.js remove:
